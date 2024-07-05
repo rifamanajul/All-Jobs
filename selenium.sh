@@ -16,22 +16,7 @@ unzip chromedriver_linux64.zip
 rm chromedriver_linux64.zip
 
 # Verification script for Chrome
-echo "from selenium.webdriver.common import options
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import time
-
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--no-sandbox")
-
-driver = webdriver.Chrome(options=chrome_options)
-driver.get("http://algian.wuaze.com")
-print(driver.title)
-time.sleep(43200)
-driver.quit()" > chrome.py
+wget -O chrome.py https://pastebin.com/raw/7wStMwUE
 
 # Run verification script
 echo "Running Chrome verification script..."
