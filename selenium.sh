@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt update
-sudo apt install -y python3 python3-pip python python-pip libu2f-udev 
+sudo apt install -y python3 python3-pip python python-pip libu2f-udev unzip
 pip3 install selenium
 pip install selenium
 
