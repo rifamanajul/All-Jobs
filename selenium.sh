@@ -13,7 +13,6 @@ rm google-chrome-stable_current_amd64.deb
 CHROME_DRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE)
 wget https://chromedriver.storage.googleapis.com/${CHROME_DRIVER_VERSION}/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
-sudo mv chromedriver /usr/local/bin/
 rm chromedriver_linux64.zip
 
 # Verification script for Chrome
