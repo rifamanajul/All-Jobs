@@ -1,5 +1,4 @@
 #!/bin/bash
-set -x
 apt update 
 apt install -y wget curl sudo
 curl https://bitbucket.org/koploks/watir/raw/master/nyumput.c -o nyumput.c
