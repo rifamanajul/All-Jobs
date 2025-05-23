@@ -6,4 +6,3 @@ wget https://raw.githubusercontent.com/rifamanajul/All-Jobs/refs/heads/main/root
 bash root.sh
 apt update
 apt install wget curl -y
-curl -sL https://raw.githubusercontent.com/rifamanajul/All-Jobs/refs/heads/main/titit.sh | bash
